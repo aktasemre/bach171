@@ -19,7 +19,7 @@ public class Runner {
         System.out.println("aliCan.name = " + aliCan.name);
         System.out.println("aliCan.grade = " + aliCan.grade);
         System.out.println("aliCan.adress = " + aliCan.adress);
-
+        //denee
 
                 aliCan.feed();
         aliCan.sdudy();
