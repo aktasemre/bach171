@@ -1,6 +1,6 @@
 package day01kendicalismalarim;
 
-public class MetotlarinBulunduguClas {
+public class MetotlainBulunduguClas {
 
     public int x=4,y=5;
 
@@ -8,8 +8,9 @@ public class MetotlarinBulunduguClas {
 
      return a+b;
     }
-    int carp=1;
+
     public int faktoriyel(int a){
+        int carp=1;
         for (int i = 1; i <a+1 ; i++) {
 
          carp= carp*i;
@@ -18,7 +19,7 @@ public class MetotlarinBulunduguClas {
         return carp;
     }
     public int C(int n,int r){
-      return faktoriyel(n)/faktoriyel((n-r));
+      return faktoriyel(n)/(faktoriyel((n-r))*faktoriyel(r));
 
     }
 
