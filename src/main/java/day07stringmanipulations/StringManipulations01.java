@@ -26,6 +26,9 @@ public class StringManipulations01 {
         String t1 = t.replaceAll("[0-9]", "*");
         System.out.println(t1);//Ali ** yasindadir!...
 
-
+        String t2=t.replaceAll("[a-zA-Z\\d]","!");
+        System.out.println(t2);
+      String t3=  t.replaceAll("[AEIOUaeiou]"," ?");
+        System.out.println(t3);
     }
 }
